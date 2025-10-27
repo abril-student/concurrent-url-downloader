@@ -22,7 +22,8 @@ Python 3.8 or later.
 ```python downloader.py <url> [options]```
 
 ### Example command:
-```python downloader.py \
+```
+python downloader.py \
   "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" \
   -w 8 \
   --chunk-size-mb 16 \
